@@ -1,0 +1,38 @@
+
+nav {
+  position: fixed;
+  width:100%;
+  z-index: 999;
+  overflow: hidden;
+  background: transparent;
+   padding: 0px !important;
+}
+nav .nav-link {
+  position: relative;
+  color:yellow;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+nav .nav-link:hover {
+  color:aliceblue;
+  animation: headShake;
+  animation-duration: 3s;
+}
+nav .nav-link:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+/* nav .nav-link:hover:after {
+  width: 100%;
+} */
+.wear:hover {
+  animation: heartBeat;
+  animation-duration: 1s;
+}

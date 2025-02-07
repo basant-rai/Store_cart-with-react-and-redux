@@ -1,0 +1,12 @@
+.inner{
+    /* background: url(../../../public/images/S2.jpg); */
+    background-size: cover;
+    margin-top: -40px !important;
+    background-position:top;
+    height: 400px;
+    /* background-attachment: fixed; */
+}
+.inner_box{
+    margin-left:310px !important;
+    margin-right: 250px !important;
+}

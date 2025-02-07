@@ -1,0 +1,16 @@
+.deals:hover, .brand:hover,.discount:hover ,.price:hover{
+animation: pulse;
+cursor: pointer;
+animation-duration: 1s;
+}
+.deals, .brand, .discount, .price{
+    color:yellowgreen;
+}
+.deals_bg{
+/* background: url(../../../public/images/S2.jpg); */
+background-size: cover;
+margin-top: -40px !important;
+background-position:center;
+height:100%;
+background-attachment: fixed;
+}
