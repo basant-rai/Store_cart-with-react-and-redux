@@ -2,7 +2,11 @@
 
 # dependencies
 /react/node_modules
-/server
+/server/node_modules
+
+/server/.env
+
+
 /node_modules
 
 /.pnp
